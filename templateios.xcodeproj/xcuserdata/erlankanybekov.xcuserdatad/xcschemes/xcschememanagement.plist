@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>templateios.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Приложение использует локальную сеть для поиска других фанатов Rick and Morty поблизости</string>
+
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth используется для обмена данными о локациях с другими пользователями</string>
+
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_rm-locations._tcp</string>
+	</array>
+</dict>
+</plist>

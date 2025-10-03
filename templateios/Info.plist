@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_rm-locations._tcp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Rick and Morty Connect uses local network to find other fans nearby</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Rick and Morty Connect uses Bluetooth to share content with other fans</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Rick and Morty Connect needs access to your photo library to share images with other fans</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-peripheral</string>
+		<string>processing</string>
+		<string>bluetooth-central</string>
+		<string>nearby-interaction</string>
+	</array>
+</dict>
+</plist>
